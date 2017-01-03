@@ -1,4 +1,3 @@
-//represnets the face of a 2x2 Rubik's Cube
 
 public class Face {
 
@@ -14,7 +13,10 @@ public class Face {
 			for(int j=0; j<2; j++){
 				face[i][j] = s;
 			}
-		}
-		
+		}	
+	}
+	
+	public char getColor(int x, int y){
+		return face[x][y];
 	}
 }
